@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Poem Generator</title>
   </head>
@@ -12,7 +13,7 @@
         <h1>Welcome to my AI poem generator</h1>
       </header>
       <main>
-        <form action="">
+        <form id="poem-form">
           <input
             type="text"
             placeholder="Choose a poem topic"
@@ -21,7 +22,7 @@
           />
           <input type="button" class="submit-button" value="Submit" />
         </form>
-        <div class="poem">Poem</div>
+        <div class="poem" id="poem"></div>
       </main>
       <footer>
         <small className="source">
