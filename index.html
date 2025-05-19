@@ -7,45 +7,48 @@
     <title>Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Welcome to my AI poem generator</h1>
-    </header>
-    <main>
-      <form action="">
-        <input
-          type="text"
-          placeholder="Choose a poem topic"
-          autocomplete="off"
-        />
-        <input type="button" value="Submit" />
-      </form>
-      <div class="poem">Poem</div>
-    </main>
-    <footer>
-      <small className="source">
-        <a
-          href="https://github.com/CodeCassie4169E1/poem-project"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Open-source code
-        </a>
-        by
-        <a
-          href="https://www.shecodes.io/graduates/86602-cassie-sichmeller"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Cassie Sichmeller </a
-        >hosted on<a
-          href="https://app.netlify.com/projects/rad-phoenix-f3ee0d/overview"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Netlify
-        </a>
-      </small>
-    </footer>
+    <div class="container">
+      <header>
+        <h1>Welcome to my AI poem generator</h1>
+      </header>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Choose a poem topic"
+            autocomplete="off"
+            class="prompt"
+          />
+          <input type="button" class="submit-button" value="Submit" />
+        </form>
+        <div class="poem">Poem</div>
+      </main>
+      <footer>
+        <small className="source">
+          <a
+            href="https://github.com/CodeCassie4169E1/poem-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open-source code
+          </a>
+          by
+          <a
+            href="https://www.shecodes.io/graduates/86602-cassie-sichmeller"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Cassie Sichmeller </a
+          >hosted on<a
+            href="https://app.netlify.com/projects/rad-phoenix-f3ee0d/overview"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
+          </a>
+        </small>
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
