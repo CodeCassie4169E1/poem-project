@@ -1,13 +1,13 @@
 body {
   background-color: rgb(81, 163, 117);
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: cursive;
 }
 a {
-  color: aquamarine;
+  color: #7fffd4;
 }
 .container {
   margin: 100px auto;
-  max-width: 600px;
+  max-width: 550px;
 }
 
 h1 {
@@ -18,7 +18,7 @@ h1 {
 }
 form {
   padding: 10px;
-  background-color: white;
+  background-color: #fff;
   border-radius: 10px;
   display: flex;
   margin-bottom: 15px;
@@ -28,22 +28,21 @@ form {
   border: 1px solid;
   width: 80%;
   font-size: 16px;
-  border-radius: 10px;
+  border-radius: 50px;
   line-height: 20px;
 }
 .submit-button {
   margin-left: 10px;
-  background-color: aquamarine;
-  color: white;
-  border: none;
+  background-color: #7fffd4;
+  color: black;
   width: 150px;
   font-size: 16px;
   border-radius: 50px;
-  padding: 14px 24px;
+  padding: 14px 1px;
 }
 .poem {
   padding: 10px;
-  background-color: white;
+  background-color: #fff;
   border-radius: 10px;
   font-size: 20px;
   line-height: 1.5;
